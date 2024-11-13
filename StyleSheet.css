@@ -1,0 +1,1316 @@
+﻿body {
+    margin: 0;
+    background-color: #556e53;   
+}
+a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: aqua;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #131f34;
+    display: flex;
+    justify-content: center;
+}
+    ul.topnav li {
+        align-content: center;
+    }
+        ul.topnav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+            ul.topnav li a:hover {
+                background-color: grey;
+            }
+        ul.topnav li.right {
+            float: right;
+        }
+.rij {
+    background-color: #131f34;
+}
+.logo-rij {
+    width: 250px;
+    margin-top: 25px;
+    margin: 0 auto;
+}
+.logo {
+    width: 150%;
+    height: 150px;
+    text-align:left;
+}
+.voorkant-martiko, .achterkant-mariko {
+    display: flex;
+    height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.achterkant-mariko-klein, .voorkant-klein {
+    display:none;
+}
+.achtergrond-foto {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("martikoVoorkant.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+    .achtergrond-foto2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("martiko-achterkant.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.achtergrond-tekst2 {
+    text-align: center;
+    position: absolute;
+    font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    color: white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+.begin h1 {
+    text-align: center;
+    color: #fce47c;
+    font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    margin-bottom: 0;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:50px;
+}
+.box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 25px;
+}
+.box > div, .box2 > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+}
+.kaart iframe {
+    display:flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.kaart p {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.kaart h2 {
+    text-align: center;
+    color: #fce47c;
+    font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    margin-bottom: 0;
+}
+.tussenstuk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.openings-uren {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 50px;
+    list-style: none
+}
+.openings h2 {
+    text-align: center;
+    color: #fce47c;
+    font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    margin-bottom: 0;
+}
+.contact h2 {
+    text-align: center;
+    color: #fce47c;
+    font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    margin-bottom: 0;
+    margin-top: -7px;
+}
+.box-contact {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;
+    margin-right:10px;
+    margin-left:10px;    
+}
+
+.box-mail, .box-telefoon {
+    text-align: center;
+    font-size: 20px;
+    color: #fce47c;
+    font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+
+}
+.fa {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 50px;
+    color: black;
+}
+.fa:hover {
+    opacity: 0.6;
+    color:yellow
+}
+#reserveren {
+    text-align: center;
+    color: #fce47c;
+    font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    margin-bottom: 0;
+    margin-top: 80px;
+}.reserveren  {
+     text-align:center;
+     margin-top:80px;
+     margin-bottom:80px;
+ }
+.reserveren-link {
+    text-align: center;
+    font-size: 20px;
+    color: #fce47c;
+    font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    margin-top: 30px;
+
+}
+@media screen and (max-width: 600px) {
+    .voorkant-martiko, .achterkant-mariko {
+        display:none;
+    }
+    .achtergrond-foto{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-image: url(martikoVoorkant-cropped.jpg);
+    }
+    .achtergrond-foto2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-image: url(martiko-achterkant-klein.jpg);
+    } 
+        .voorkant-klein{
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        margin: 100%;
+        }
+    .achterkant-mariko-klein {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100%;
+    }
+    .tussenstuk {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact h2 {
+        text-align: center;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+    .box-telefoon {
+        margin-top: 10px;
+    }
+    .openings-uren {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 30px;
+        list-style: none
+    }
+    #reserveren{
+        margin-top:300px;
+        margin-bottom:40px;
+    }
+    .reserveren{
+        margin-bottom:0px;
+    }
+    .reserveren-link {
+        margin-top: 40px;
+    }
+    .kaart iframe {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+} 
+    /* OVER ONS PAGINA*/
+  
+    .inleiding-test, .inleiding1-test {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+.inleiding-test > div {
+        text-align: center;
+        height: 170px;
+        width: 600px;        
+}
+.tekst-intro {
+  margin-top:-2px;
+    text-align: center;
+}
+.inleiding-test-klein, .tekst-samenwerking-klein, #klein-titel {
+    display: none;
+}
+.tekst1-test {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    height: 170px;
+    width: 300px;
+    margin-right: -10px;
+    margin-top: 50px;
+}
+.tekst2-test {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    height: 180px;
+    width: 300px;
+    margin-left: -10px;
+    margin-top:50px;
+}
+.box-2 {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    height: 280px;
+    width: 300px;
+    margin-bottom:0;
+}
+.box-klein{
+    display:none;
+}
+#uitzicht-test {
+    width: 95%;
+    height: 95%;
+}
+.martikoEnRoman {
+    display: flex;
+    justify-content: center;
+}
+.titels-test {
+    text-align: center;
+    color: #fce47c;
+    font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    margin-bottom: 0;
+}
+#samenwerking {
+    margin-top:10px;
+    
+}
+.box-5 {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-left:50px;
+    margin-right:165px;
+    margin-top:-25px;
+}
+.tekst-samenwerking {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom:0;
+}
+#pp 
+{margin-bottom:-10px;
+}
+    .box-7 {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 165px;
+    margin-top: -15px;
+    }
+#roman-test, #tap-test {
+    width: 285px;
+    height: 266px;
+}
+.patrons-deel {
+    display: flex;
+    justify-content: center;
+}
+#Patrons{
+    margin-top:-40px;
+}
+.patrons-tekst1 {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    height: 170px;
+    width: 300px;
+    margin-right: -10px;
+    margin-top: 20px;
+}
+.box-9 {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    height: 280px;
+    width: 300px;
+    margin-bottom: -50px;
+    margin-top:-10px;
+}
+.patrons-tekst2 {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    height: 180px;
+    width: 300px;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+.titel-menu, .titel-test {
+    text-align: center;
+    color: #fce47c;
+    font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+}
+.naam-tekst-klein{
+    display:none;
+}
+.naam-deel {
+    display: flex;
+    justify-content: center;
+}
+#naam {
+    margin-top: -40px;
+    margin-bottom: 5px;
+}
+.naam-tekst {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top:-20px;
+    margin-bottom: 0;
+    text-align:center
+}
+.box-11 {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 165px;
+    margin-top: -60px;
+}
+.box-13 {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 165px;
+    margin-top: -60px;
+}
+#aap-test{
+    width:285px;
+    height:300px;
+
+}
+@media screen and (max-width: 600px)
+{
+    
+    .inleiding-test {
+        display: none;
+       
+    }
+    .titels-test{
+        margin-top:-10px;
+        margin-bottom:-10px;
+    }
+    .inleiding-test-klein {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom:20px;
+    }
+    #klein-titel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom:20px;
+    }
+    .inleiding1-test {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -60px;
+        width: 100%;
+    }
+    .box-2, .box-5, .box-7, .box-9, .box-11, .box-13 {
+        display: none;
+    }
+    #uitzicht-klein {
+        margin-top: -10px;
+        margin-bottom: 10px;
+       
+    }
+    .box-klein {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .tekst2-test {
+        width: 90%;
+        margin-top: -20px;
+        margin-bottom: 0px;
+        margin-left:15px;
+    }
+    .martikoEnRoman {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    #samenwerking {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    #roman-klein {
+        margin-bottom: 0px;
+    }
+    .tekst-samenwerking
+    {
+        display:none;}
+    .tekst-samenwerking-klein {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align:center;
+        margin-top: 0px;
+        width: 100%;
+    }
+    #tap-klein {
+        margin-top: -10px;
+        margin-bottom: 50px;
+    }
+    .patrons-deel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom:-20px;
+    }
+    #Patrons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -20px;
+        margin-bottom: -25px;
+        width: 100%;
+    }
+ 
+    #patrons-klein{
+        margin-top:-25px;
+        margin-bottom:-25px;
+    }
+    .naam-deel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .naam-tekst{
+        display:none;
+    }
+    .naam-tekst-klein {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0px;
+        width: 100%;
+    }
+    #naam-p{
+        margin-top:-10px;
+    }
+    #aap-klein {
+        margin-top: -10px;
+    }
+}
+    /*MENU KAART PAGINA*/   
+    #titel-hapjes {
+        margin-top: 40px;
+        margin-bottom: -5px;
+        text-align: center;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    }
+    .hapjes-lijst {
+        display: flex;   
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+        .hapjes-lijst p {
+            margin-bottom: -5px;
+        }
+    #titel-deelgerechten {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        text-align: center;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    }
+    .deelgerechten {
+        margin-top: -25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .deelgerechten h5 {
+            text-align: center;
+            color: #fce47c;
+            font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+            margin-bottom: -5px;
+        }
+    .deelgerechten-vlees-lijst, .deelgerechten-vegan-lijst, .deelgerechten-vis-lijst {
+        width: 200px;
+        height: 150px;
+        text-align: center;
+
+    }
+    #oesters {
+        margin-top: 33px;
+    }
+    #zeebaars {
+        margin-top: 4px;
+    }
+    #titel-cote {
+        margin-top: 120px;
+        text-align: center;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    }
+    .cote-info {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .deelgerechten-cote-lijst, .deelgerechten-cote-lijst2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+        .deelgerechten-cote-lijst h5, .deelgerechten-cote-lijst2 h5 {
+            margin-bottom: 5px;
+            text-align: center;
+            color: #fce47c;
+            font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+        }
+    .cote1, .cote4 {
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 200px;
+        height: 150px;
+    }
+        .cote1 p {
+            margin-top: 18px;
+        }
+    .cote2, .cote3 {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 200px;
+        height: 150px;
+    }
+        .cote3 p {
+            margin-top: 20px;
+        }
+    .foto-cote {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .cote-foto1, .cote-foto2 {
+        margin-right: 15px;
+        width: 250px;
+        height: 200px;
+    }
+.cote-foto1-klein, .cote-foto2-klein{
+    display:none;
+}
+.bijgerechten {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 150px;
+}
+        .bijgerechten p {
+            margin-top: 21px;
+            width: 200px;
+            height: 150px;
+        }
+    .cote5 {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 200px;
+        height: 150px;
+    }
+    #titel-dessert {
+        margin-bottom: 5px;
+        text-align: center;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    }
+    .dessert {
+        display: flex;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .desserts-lijst {
+        text-align: center;
+        margin-top: -5px;
+    }
+        .desserts-lijst p {
+            margin-bottom: -5px;
+        }
+    @media screen and (max-width: 600px) {
+        .hapjes-lijst {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .deelgerechten {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+           
+        }
+        .deelgerechten-vegan-lijst{
+            margin-top:125px;
+            margin-bottom:15px;
+        }
+        .cote-foto1, .cote-foto2{
+            display:none;
+        }
+        .foto-cote {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .cote-foto1-klein{
+
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         width: 60%;
+        }
+        .cote-foto2-klein {
+            margin-top:15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+        }
+        .deelgerechten-cote-lijst, .deelgerechten-cote-lijst2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            text-align: center;
+        }
+        .cote1{
+            margin-bottom:25px;
+        }
+        .cote5 {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        
+        #bijgerecht {
+            margin-top: 0px;
+            text-align: center;
+        }
+        .bijgerechten {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            
+            margin-top: 25px;
+        }
+        .desserts-lijst {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    /*DRANK KAART*/
+
+    .roman-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: -30px
+    }
+#logo-roman-klein{
+    display:none;
+}
+#logo-roman {
+    height: 30%;
+    width: 20%;
+}
+    .titel-drank {
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+        margin-right:-20px;
+    }
+    .drank-titels-limonade {
+        text-align: center;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: -20px;
+        margin-right:-20px;
+    }
+    .limonades {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .roman-limonade-links {
+        margin-right: 50px;
+    }
+    .roman-limonade-rechts {
+        margin-left: 50px;
+    }
+.roman-klein, .roman-klein2, .titel-drank-klein, .drank-titels-klein {
+    display: none;
+}
+.roman-limonade {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+    .water-lijst {
+        margin-top: -32px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .andere-lijst {
+        margin-top: 2px;
+    }
+    .drank-titels-bier {
+        margin-right:-20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: -5px;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    }
+.bieren-titel{
+    display:none;}
+.bieren-lijst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.soort-bier {
+    color: #fce47c;
+    font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+}
+.bieren-fles {
+    margin-left: 35px;
+}
+    .blanche, .sloeber {
+        width: 200px;
+        height: 230px;
+    }
+    #sloeb {
+        height: 225px;
+        width: 190px;
+    }
+.sloeber-klein{
+    display:none;}
+.wijn-wit, .wijn-rood {
+    flex-direction: column;
+}
+    .wijn-titel {
+        text-align: center;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    }
+    .drank-titels-apero {
+        text-align: center;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+        margin-left: 50px;
+        margin-bottom: -5px;
+    }
+.ape-titel {
+    text-align: center;
+    color: #fce47c;
+    font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+}
+    .aperitief {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+    }
+    .cocktail, .gin {
+        margin-right: 25px;
+    }
+    .sterke, .zonder-alco {
+        margin-left: 25px;
+    }
+    .wijn-kaart {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .drank-titels-warm {
+        text-align: center;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+        margin-left: 50px;
+        margin-bottom: -5px;
+    }
+    .warme {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 75px;
+    }
+    .warm-rij-2 {
+        margin-left: 20px;
+    }
+@media screen and (max-width: 600px) {
+
+    #logo-roman, .drank-titels-limonade, .titel-drank {
+        display: none;
+    }
+    #logo-roman-klein {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .roman-klein {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .roman-klein2 {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .titel-drank-klein {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    }
+    .drank-titels-klein {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    }
+    .limonades {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-left: -2px;
+    }
+    .soort-drank {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    }
+    .water-lijst {
+        margin-top: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .drank-titels-bier, .sloeber, .roman-limonade-rechts, .roman-limonade-links {
+        display: none;
+    }
+    .bieren-lijst {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .bieren-titel {
+        width: 100%;
+        text-align: center;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    }
+    .sloeber-klein {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+    #flesje {
+        margin-left: -30px;
+    }
+    .aperitief, .warme, .roman-lijst, .andere-lijst {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .drank-titels-apero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .ape-titel {
+        width: 100%;
+        text-align: center;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+    }
+    .zonder-alco, .sterke {
+        text-align: center;
+        margin-left: -20px;
+    }
+    .drank-titels-warm {
+        margin-left: -5px;
+    }
+    .warme {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .warm-rij-2 {
+        margin-left: -5px;
+    }
+}
+    /*review page*/
+
+    .titel-review {
+        text-align: center;
+        color: #fce47c;
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+        margin-bottom: 5px;
+    }
+    .center-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    }
+    #review-tekst {
+        height: 200px;
+        width: 250px;
+        margin: 5px auto;
+        display: block;
+        left: 50%;
+        right: 50%;
+    }
+    #review-label {
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        margin: 5px 0;
+        display: block;
+        right: 50%;
+    }
+    #naam-label, #voornaam-label, #datum-eten {
+        font-family: "Abhaya Libre", "Helvetica Neue", Arial, sans-serif;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        left: 50%;
+        right: 50%;
+        margin-top: 0;
+        margin-bottom: 10px;
+        display: block;
+    }
+    #naam, #voornaam, #start, #verzenden {
+        width: 100%;
+        left: 50%;
+        right: 50%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .alles {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .tekst-ster {
+        text-align: center;
+    }
+    .sterren {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .checked {
+        color: orange;
+    }
+    .reviews-rij1 {
+        display: flex;
+        flex-direction: column;
+        margin-right: 25px;
+        margin-left: 50px;
+    }
+    .review-box {
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .review-box2 {
+        width: 200px;
+        height: 100px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+    }
+    reviews-rij2 {
+        display: flex;
+        flex-direction: column;
+        margin-right: 100px;
+        margin-left: 25px;
+    }
+    .review-box-boven {
+        width: 200px;
+        height: 200px;
+        margin-top: 72px;
+        text-align: right;
+        margin-left: 150px;
+    }
+    .review-box-midden {
+        width: 200px;
+        height: 200px;
+        margin-left: 150px;
+        text-align: right;
+        margin-top: -80px;
+    }
+    .review-box3 {
+        width: 200px;
+        height: 200px;
+        text-align: right;
+        margin-top: -60px;
+        margin-left: 150px;
+    }
+    @media screen and (max-width: 600px) {
+        #review-titel {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .alles {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+        }
+        .reviews-rij1 {
+           
+            margin-left:-5px;
+            
+            margin-bottom: 30px;
+        }
+        .reviews-rij2 {
+           margin-top:10px;
+            margin-bottom: 10px;
+        }
+        #review1 {
+            margin-bottom: 40px;
+        }
+        #review2 {
+            margin-bottom: 40px;
+        }
+        #review3 {
+        }
+        .review-box-boven {
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            margin-top: 80px;
+            text-align: center;
+            margin-left: -30px;
+        }
+        .review-box-midden {
+            justify-content: center;
+            align-items: center;
+            margin-left: -30px;
+            text-align: center;
+        }
+        .review-box3 {
+            justify-content: center;
+            align-items: center;
+            margin-left: -30px;
+            text-align: center;
+        }
+        .tekst-ster {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            margin-left: -30px;
+        }
+        .sterren {
+            margin-left: 20px;
+        }
+        .titel-review {
+            margin-top: 60px;
+            margin-bottom: 100px;
+        }
+        .container-review center-container {
+            margin-top: 100px;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .logo {
+            width: 100%;
+            height: 90px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        ul.topnav {
+            flex-direction: column;
+        }
+            ul.topnav li {
+                width: 100%; 
+            }
+                ul.topnav li.right {
+                    float: none; 
+                }
+    }
+
+       
+        
